@@ -3,6 +3,11 @@ using UnityEngine;
 
 namespace BAStudio.Unity.KineticMovementLab
 {
+    public enum Layer
+    {
+        All_NODE,
+        
+    }
     public class Movement : MonoBehaviour
     {
         StateMachine<Movement> stateMachine;
