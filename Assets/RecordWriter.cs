@@ -7,9 +7,9 @@ using MessagePack;
 
 namespace BAStudio.Unity.KineticMovementLab
 {
-    public static class RecordWriter<T> where T : Record
+    public abstract class RecordWriter<T> where T : Record
     {
-        public static async Task<string> Write (IEnumerable<T> records)
+        public virtual async Task<string> Write (IEnumerable<T> records)
         {
             StringWriter stringWriter = new StringWriter();
             foreach (var r in records)

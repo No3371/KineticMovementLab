@@ -1,0 +1,4 @@
+
+[submodule "Assets/Plugins/statepatterncsharp"]
+	path = Assets/Plugins/statepatterncsharp
+	url = https://gitlab.com/No3371/statepatterncsharp.git

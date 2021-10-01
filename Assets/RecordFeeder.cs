@@ -27,7 +27,7 @@ namespace BAStudio.Unity.KineticMovementLab
 
             public void OnUpdate (float tick)
             {
-                while (playbackIndex < Records.Count && Records[playbackIndex].Tick <= tick)
+                while (playbackIndex < Records.Count && Records[playbackIndex].tickMS <= tick)
                 {
 
                 }
